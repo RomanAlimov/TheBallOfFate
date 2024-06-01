@@ -27,6 +27,7 @@ def vozvrat():
             voprosi()
         elif g == 'НЕТ':
             print('Тогда до встречи!')
+            break
         else:
             print('Не понял вашего вопроса.')
             vozvrat()
